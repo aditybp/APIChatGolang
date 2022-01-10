@@ -1,0 +1,38 @@
+# APIChatGolang
+
+<h3> Golang :</h3>
+
+   <p>Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency</p>
+
+<h3> REST API :</h3>
+
+   <p> An API is an application programming interface. It is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
+
+   REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
+
+   Each URL is called a request while the data sent back to you is called a response..</p>
+
+<h3>JWT: </h3>
+
+   <p>JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA. </p>
+   
+### How To Get Started With API:
+#### You can configure your own database in 
+    ../database/connect.go
+
+### Implemented REST API:
+
+#### Register Account:
+    POST: localhost:8000/api/register
+
+#### Signin:
+    POST: localhost:8000/api/login
+
+#### Get All Account:
+    POST: localhost:8000/api/user
+
+#### Get Messages By Number:
+    GET: localhost:8000/api/getmessages
+    
+#### Post Messages By Number:
+    GET: localhost:8000/api/postmessages
